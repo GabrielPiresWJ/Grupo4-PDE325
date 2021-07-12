@@ -1,0 +1,206 @@
+* {
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #000000;
+}
+
+header figure img {
+    display: flex;
+    width: 130px;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav li {
+    margin-right: 45px;
+    color: #FFFFFF;
+}
+
+nav ul li a:hover {
+    color: #64D962;
+}
+
+nav li a {
+    font-weight:normal;
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/spotify-main-bg.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.title {
+    font-size: 80px;
+    color: #64D962;
+    width: 80%;
+    letter-spacing: -10px;
+}
+
+.title h1 {
+    font-family:'Circular Spotify Tx T Black';
+}
+
+.p {
+    color: #64D962;
+    padding-bottom: 35px;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #64D962;
+    color: #4047AE;
+    border: #64D962 solid 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0px 20px;
+    transition: 0.4s;
+}
+
+.button a {
+    color: #4047AE;
+}
+
+.button:hover {
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+
+.footer-one {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center, top;
+    color: #FFFFFF;
+    width: 60%;
+    padding-top: 100px;
+    font-size: 14px;
+}
+
+.footer-one figure img {
+    width: 120px;
+}
+
+.footer-one div p {
+    color: #919496;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-one div ul {
+    list-style-type: none;
+}
+
+.footer-one div ul li {
+    padding-bottom: 20px;
+}
+
+.footer-one div ul li a {
+    color: #FFFFFF;
+}
+
+.footer-one div ul li a:hover {
+    color:#64D962;
+}
+
+.social-medias {
+    display: flex;
+}
+
+.social-medias span {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.social-medias span svg {
+    width: 24px;
+}
+
+.icon:hover path {
+    fill: #64D962;
+}
+
+.footer-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #919496;
+    width: 60%;
+    margin-top: 70px;
+    margin-bottom: 55px;
+    font-size: 11px;
+}
+
+.footer-two-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-two-text p {
+    display: flex;
+    margin-right: 25px;
+    align-items: flex-end;
+}
+
+.footer-two-text p a {
+    color: #919496;
+}
+
+.footer-two-text p a:hover {
+    color:#64D962;
+}
+
+.footer-two-text2 {
+    text-align: right;
+}
+
+.footer-two-text2 a {
+    text-align: right;
+    color: #919496;
+}
+
+.footer-two-text2 a:hover {
+    color:#64D962;
+}
