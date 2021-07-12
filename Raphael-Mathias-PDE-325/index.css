@@ -1,0 +1,164 @@
+*{
+	font-family: 'Circular Spotify Tx T Black';
+}
+header {
+	background: black;
+	padding: 20px 0;
+	height: 10px;
+}
+body{
+	background-image: url("bg.jpg");
+}
+
+
+nav {
+	position: absolute;
+	top: 12px;
+	right: 20%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color:white;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #f72585;
+	
+}
+
+
+
+.banner {
+	display:flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+
+.banner h1 {
+	font-size: 60px;
+	color:black;
+	font-weight: bold;
+	text-align: center;
+}
+
+.banner h2 {
+	
+	color:black;
+	font-size:12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.banner button{
+	align-self: center;
+	border-radius: 30px;
+	color: #FFF;
+	font-weight: bold;
+    background-color: #f72585;
+}
+.banner button:hover{
+	background-color: #560bad;
+	transform: scale(1.5);
+
+}
+
+
+.OFooterDoRapha{
+	display:flex;
+	justify-content: center;
+	margin-right: 10%;
+	margin: 0 0 0 15px;  
+}
+
+.OFooterDoRapha li:hover{
+	color: #f72585;
+
+}
+
+.OFooterDoRapha li {
+	
+	color:white;
+	text-align: left;
+
+	
+}
+
+.OFooterDoRapha ul{
+	margin-right: 45px;
+}
+
+.RedesSociais{
+	display:flex;
+	justify-content: center;
+	margin-left: 80%;
+	width: 10%;
+    height: 10%;
+	
+}
+.RedesSociais a:hover{
+	background-color:#f72585;
+}
+
+.FooterDireito{
+	
+	margin-right:20%;
+}
+
+
+.FooterDireito li{
+	
+	display: inline-block;
+	color: white;
+	font-size: 12px;
+	margin-right: 2%;
+}
+
+
+.FooterEsquerdo{
+	margin-left:80%;
+	margin-top: 3%;
+}
+
+
+.FooterEsquerdo li{
+	
+	color: white;
+	font-size: 12px;
+	margin-right: 2%;
+	
+}
+.logoFooter{
+	position: absolute;
+	top: 70%;
+	right: 72%;
+
+	width: 5%;
+}
+
+
+footer {
+	text-align: center;
+	background-color: black;
+	padding: 40px 0;
+
+}
+
+
+.loguinha{
+	position: absolute;
+	top: 12px;
+	right: 72%;
+
+	width: 5%;
+}
