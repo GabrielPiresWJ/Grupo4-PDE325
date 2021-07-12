@@ -39,9 +39,34 @@ nav li{
 main {
     background-image: url(fundo.jpg);
     background-size: cover;
-    position: relative;
+    align-items: center;
     height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main h1 {
+    color: #64D962;
+    font-size: 80px;
+    text-shadow: 2px 2px #000000;
+    
+}
+
+.subtitulo {
+    color: #64D962;
+    font: 40px;
+    text-shadow: 1px 1px #000000;
+}
+
+.botao {
+    color: rgb(63, 63, 175);
+    border: #64D962 solid 5px;
+    border-radius: 30px;
+    padding: 0px 20px; 
+    background-color: #64D962;
 }
 
 footer {
@@ -131,3 +156,4 @@ footer {
     flex-direction: row;
     align-items: flex-end;
 }
+
