@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    }
+
+header {
+    background: #000000;
+    padding: 20px 0;
+}
+
+
+.spotifycima {
+    width: 100px;
+}
+
+.cima {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    color: #CCCCCC;
+
+}
+
+nav {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+    font-size:15px;
+}
+
+.bg {
+    width: auto;
+}
+
+main {
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+
+.footer1 {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center, top;
+    width: 80%;
+    margin-top: 100px;
+    
+}
+.footer1 div img {
+    width: 100px;
+    
+}
+
+.footer1 div p {
+    color: #919496;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.footer1 div ul li {
+    margin-bottom: 15px;
+}
+
+.caique article {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: #222326;
+    border-radius: 50%;
+}
+
+.caique article svg {
+    width: 30px;
+    
+}
+
+.caique {
+    display: flex;
+}
+
+.footer2 {
+    display: flex;
+    color:#919496 ;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.footer2 div ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.caique3 {
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.caique2 ul li{
+    display: flex;
+    margin-right: 50px
+}
+
+.caique2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
