@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body {
+    background-color:rgb(255, 115, 161);
+}
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: black;
+
+}
+
+#logo {
+    width: 90px;
+    margin-left: 100px;
+}
+header ul {
+    display: flex;
+    color:white;
+}
+header ul li {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 13px;
+}
+#verticaline {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 15px;
+    width: 1px;
+    margin: 10px 30px;
+    justify-content: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main h1 {
+    z-index: 200;
+    width: 900px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.degrade {
+    margin: 15px 0;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(0deg, rgba(228,255,255,0.9472163865546218), rgba(255,111,220,1) 100%);
+    border-radius: 50%;
+}
+footer {
+    background-color: black;
+}
+.listaprincipal {
+    padding-top: 30px;
+    display:flex;
+    justify-content: space-between;
+    height: 300px;
+}
+.listafooter {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+.listafooter li {
+    margin: 15px 10px;
+}
+.listafooter li p {
+    color: rgb(185, 185, 185);
+}
+.listavertical {
+    display:flex;
+    color: rgb(221, 221, 221);
+    font-size: 10px;
+    letter-spacing: 1.2px;
+    list-style-type: none;
+}
+.listavertical li {
+    margin:30px 10px;
+}
+.imgsfooter {
+    display:flex;
+    margin-right: 10px;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.imgsfooter {
+    display: flex;
+    justify-content: left;
+}
+
+.imgsfooter li {
+
+    height: 10px;
+    width: 10px;
+    margin: 0 30px;
+}
